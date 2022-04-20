@@ -146,3 +146,48 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 	padding-left: var(--wp--custom--spacing--outer);
 }
 
+
+footer {
+	background: #483835 !important;
+	color: #FBECEA !important;
+}
+
+#block-cbb2a334-0fa4-4713-8e96-21febadd913e {
+	background-color: #FFC692 !important;
+	color: #0a4b78 !important;
+}
+
+
+
+body {
+	padding: 0 !important;
+}
+
+.wp-site-blocks {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.wp-container-12 {
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+}
+
+.faq_button{
+	width: 200px;
+}
+
+.after_header {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.wp-block-button__link {
+	border-radius: 50px;
+	background: #483835;
+}
+
+.wp-container-9 {
+	padding-left: 50px;
+	padding-right: 50px;
+}

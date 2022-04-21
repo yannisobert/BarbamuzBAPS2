@@ -116,9 +116,9 @@ body > .is-root-container > .wp-block-cover,
 body > .is-root-container > .wp-block-template-part > .wp-block-group.has-background,
 body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 .is-root-container .wp-block[data-align="full"] {
-	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+/*	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
 	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
-	width: unset;
+	width: unset;*/
 }
 
 /* Blocks inside columns don't have negative margins. */
@@ -245,10 +245,14 @@ main {
 }
 
 .wp-block-template-part {
-	width: auto;
+	width: auto !important;
+	height: auto !important;
 }
 
 h2 {
 	text-align: center !important;
 }
 
+figure {
+	margin: 0 !important;
+}

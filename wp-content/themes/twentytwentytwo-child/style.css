@@ -150,6 +150,7 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 footer {
 	background: #483835 !important;
 	color: #FBECEA !important;
+	margin: 0 !important;
 }
 
 #block-cbb2a334-0fa4-4713-8e96-21febadd913e {
@@ -190,4 +191,40 @@ body {
 .wp-container-9 {
 	padding-left: 50px;
 	padding-right: 50px;
+}
+
+.wp-container-7 {
+	background-color: #E5E5E5;
+	color: #FFAD9F;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.second {
+	background-color: #FFDBC0;
+	color: #97A87F;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.info_part {
+	margin: 0 !important;
+}
+
+main {
+	margin: 0 !important;
+}
+
+.after_main_img {
+	margin: 0 !important;
+}
+
+.wp-block-image {
+	margin: 0 !important;
+}
+
+.faq {
+	background: #FBECEA;
+	margin: 0 !important;
+	padding-bottom: 50px;
 }

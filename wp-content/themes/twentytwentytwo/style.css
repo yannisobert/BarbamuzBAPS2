@@ -1,9 +1,9 @@
 /*
-Theme Name: Twenty Twenty-Two
-Theme URI: https://wordpress.org/themes/twentytwentytwo/
-Author: the WordPress team
+Theme Name: Twenty Twenty-Two Child
+Theme URI: https://wordpress.org/themes/twentytwentytwo-child/
+Author: Yannis OBERT
 Author URI: https://wordpress.org/
-Description: Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.
+Description: Twenty Twenty-Two Child Theme
 Requires at least: 5.9
 Tested up to: 5.9
 Requires PHP: 5.6
@@ -47,7 +47,7 @@ a:focus {
 a:active {
 	text-decoration: none;
 }
-
+q
 .wp-block-navigation .wp-block-navigation-item a:hover,
 .wp-block-navigation .wp-block-navigation-item a:focus {
 	text-decoration: underline;
@@ -116,15 +116,15 @@ body > .is-root-container > .wp-block-cover,
 body > .is-root-container > .wp-block-template-part > .wp-block-group.has-background,
 body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 .is-root-container .wp-block[data-align="full"] {
-	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
-	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
-	width: unset;
+	/*	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+        margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+        width: unset;*/
 }
 
 /* Blocks inside columns don't have negative margins. */
 .wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
 .is-root-container .wp-block-columns .wp-block-column .wp-block[data-align="full"],
-/* We also want to avoid stacking negative margins. */
+	/* We also want to avoid stacking negative margins. */
 .wp-site-blocks .alignfull:not(.wp-block-group) .alignfull,
 .is-root-container .wp-block[data-align="full"] > *:not(.wp-block-group) .wp-block[data-align="full"] {
 	margin-left: auto !important;
@@ -146,3 +146,140 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 	padding-left: var(--wp--custom--spacing--outer);
 }
 
+
+footer {
+	background: #483835 !important;
+	color: #FBECEA !important;
+	margin: 0 !important;
+	padding-bottom: 50px;
+}
+
+#block-cbb2a334-0fa4-4713-8e96-21febadd913e {
+	background-color: #FFC692 !important;
+	color: #0a4b78 !important;
+}
+
+
+
+body {
+	padding: 0 !important;
+	background-color: #FFDBC0;
+}
+
+.wp-site-blocks {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.wp-container-12 {
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+}
+
+.faq_button{
+	width: 200px;
+}
+
+.after_header {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.wp-block-button__link {
+	border-radius: 50px;
+	background: #483835;
+}
+
+.wp-container-9 {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.wp-container-7 {
+	background-color: #E5E5E5;
+	color: #FFAD9F;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.second {
+	background-color: #FFDBC0;
+	color: #97A87F;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.info_part {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5% !important;
+	padding-right: 5% !important;
+	background-color: #C7D8AC;
+}
+
+main {
+	margin: 0 !important;
+}
+
+.after_main_img {
+	margin: 0 !important;
+}
+
+.wp-block-image {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.faq {
+	background: #FBECEA !important;
+	margin: 0 !important;
+	padding-bottom: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: #483835;
+}
+
+.main_text {
+	margin-left: 10%;
+	margin-right: 10%;
+	color: #97A87F;
+}
+
+.has-text-align-right {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.wp-block-template-part {
+	width: auto !important;
+	height: auto !important;
+}
+
+h2 {
+	text-align: center !important;
+}
+
+figure {
+	margin: 0 !important;
+}
+
+.wp-container-7 {
+	background-color: #E5E5E5;
+	color: #483835;
+}
+
+.wp-block-page-list {
+	display: none !important;
+}
+
+.last_part {
+	margin-top: 0 !important;
+	background-color: #FBECEA;
+}
+
+.last_part_btn {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
